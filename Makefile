@@ -6,7 +6,7 @@ OPV := $(OWNER)/$(PROJECT):$(VERSION)
 ## Download Data
 .PHONY: download-data
 download-data:
-	./download_bikeshare_data.sh
+	cd bikeshare_data && ./download_bikeshare_data.sh
 
 ## Build Docker Image
 docker-build:
