@@ -9,8 +9,9 @@ download-data:
 	cd bikeshare_data && ./download_bikeshare_data.sh
 
 ## Build Docker Image
+.PHONY: docker-build
 docker-build:
-	docker build --progress=plain -f docker/Dockerfile -t $(OPV) .
+	docker build -f docker/Dockerfile -t $(OPV) .
 
 ## Run Notebook Container
 .PHONY: docker-run
