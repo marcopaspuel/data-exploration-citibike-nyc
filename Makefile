@@ -3,6 +3,8 @@ PROJECT := datascience-notebook
 VERSION := 0.0.1
 OPV := $(OWNER)/$(PROJECT):$(VERSION)
 
+all: docker-build docker-run
+
 ## Download Data
 .PHONY: download-data
 download-data:
