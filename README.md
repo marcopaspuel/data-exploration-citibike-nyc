@@ -40,3 +40,9 @@ You can run the following command to stop and remove the container.
 ```bash
 make docker-stop
 ```
+
+### Credits
+- [NYC Citi Bike Trip Histories](https://www.citibikenyc.com/system-data)
+- [Exploring NYC Bike Share Data](https://towardsdatascience.com/exploring-bike-share-data-3e3b2f28760c)
+- [Jupyter Docker Stacks](https://github.com/jupyter/docker-stacks#jupyter-docker-stacks)
+- [Visual Crossing Weather Data Services](https://www.visualcrossing.com/weather/weather-data-services#/login)
